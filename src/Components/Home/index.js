@@ -2,11 +2,15 @@ import React,{Component} from 'react'
 import Users from '../Users'
 import Header from '../Header'
 import './index.css'
+
+// let usersList = []
+
  
 class Home extends Component{
    state = {
        userscount : 0,
        showUsersData : false,
+       usersList : []
    }
  
    handleKeyPress = (event) => {
@@ -20,16 +24,28 @@ class Home extends Component{
    }
  
    renderUsersData = () => {
-       const {userscount} = this.state
+       const {userscount,usersList} = this.state
+       let nums_list = []
+       for (let j=1; j<= userscount;j++){
+            nums_list.push(j)
+       }
+       //this.setState({usersList: [...usersList,...nums_list]})
+       //console.log(nums_list)
+      
        return(
            <div>
-               {Array.from({length:userscount},((_,i)=><Users userId={i+1} key={i+1}/>))}
+               {/* {Array.from({length:userscount},((_,i)=><Users userId={i+1} key={i+1}/>))}  */}
+                {/* <Users nums_list={nums_list}/> */}
+                {nums_list.map((each)=> <Users nums_list={nums_list} key={each}/>)}
            </div>
        )
    }
+   
+   
  
    render(){
-       const {showUsersData} = this.state
+       const {showUsersData,usersList} = this.state
+       console.log(usersList)
        return(
            <>
            <Header/>

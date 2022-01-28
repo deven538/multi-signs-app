@@ -5,7 +5,7 @@ const Header = () => {
     return(
         <div className="header-main">
             <div className="meity-logo">
-                <img src="https://res.cloudinary.com/cdac01/image/upload/v1643349971/meity_m5z3ww.jpg" className="meity-logo" alt="meity-logo"/>
+                <img src="https://res.cloudinary.com/cdac01/image/upload/v1643370232/new-logo_hjxorl.jpg" className="meity-logo" alt="meity-logo"/>
             </div>
             <h1 className="m-s-app-heading">Multisign Application</h1>
             <div className="c-dac-logo">
