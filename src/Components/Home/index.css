@@ -1,0 +1,44 @@
+.main-class{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   background: linear-gradient(to right, #ffffff,cyan);
+   min-height: 100vh;
+   background-size:cover;
+ }
+
+ .sub-class{
+   display: flex;
+   flex-direction: row;
+    justify-content: center;
+ }
+  
+ .file-name-input-field{
+    margin-top:30px;
+    margin-bottom: 30px;
+    margin-left:75px;
+    font-size: larger;
+ }
+ 
+ .main-heading{
+    color:#1e523a;
+    font-family: 'Times New Roman', Times, serif;
+ }
+
+ .no-of-users-text{
+   color:#1e523a;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: larger;
+ }
+
+ .number-field{
+    height:20px;
+    width:250px;
+    border-style:double;
+    margin-left: 10px;
+ }
+
+
+ .input-container{
+    margin-top: 30px;
+ }

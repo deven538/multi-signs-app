@@ -1,0 +1,18 @@
+.success-main-class{
+    background-color: aqua;
+    background-size: cover;
+    min-height: 100vh;
+    color: blue;
+    font-size:medium;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+  
+ .success-heading{
+    color:blue;
+    font-size: 24px;
+ }
+ 
+ 
