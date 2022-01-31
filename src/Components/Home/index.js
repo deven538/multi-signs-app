@@ -1,6 +1,7 @@
 import React,{Component} from 'react'
 import Users from '../Users'
 import Header from '../Header'
+import Footer from '../Footer'
 import './index.css'
 
 // let usersList = []
@@ -59,6 +60,7 @@ class Home extends Component{
                     </div>
                </div>
            </div>
+           <Footer/>
            </>
        )
    }

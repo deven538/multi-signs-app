@@ -7,7 +7,10 @@ const Header = () => {
             <div className="meity-logo">
                 <img src="https://res.cloudinary.com/cdac01/image/upload/v1643370232/new-logo_hjxorl.jpg" className="meity-logo" alt="meity-logo"/>
             </div>
-            <h1 className="m-s-app-heading">Multisign Application</h1>
+            <div className="heading-para-container">
+                <h1 className="m-s-app-heading">Doc Trail</h1>
+                <p className="para">BlockChain based Document Trail management</p>
+            </div>
             <div className="c-dac-logo">
                 <img src="https://res.cloudinary.com/cdac01/image/upload/v1643349971/c-dac_logo_jmr1tk.jpg" className="c-dac-logo" alt="c-dac-logo"/>
             </div>

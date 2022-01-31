@@ -1,0 +1,17 @@
+.footer-class{
+    height:90px;
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-image{
+    height:60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-para{
+    margin-left: 15px;
+}
